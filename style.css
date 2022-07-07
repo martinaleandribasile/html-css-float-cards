@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Trispace', sans-serif;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 80px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.container {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px;
+}
+
+.maintitle {
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+    color: #e53170;
+}
+
+.article {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.personalData {
+    background-color: #0f0e17;
+    color: white;
+    height: 200px;
+    padding: 20px;
+    line-height: 50px;
+}
+
+a {
+    color: aqua;
+}
+
+.schedule {
+    margin: 60px;
+}
