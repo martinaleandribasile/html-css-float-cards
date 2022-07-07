@@ -13,7 +13,7 @@ body {
     content: "";
     display: table;
     clear: both;
-    margin-top: 80px;
+
 }
 
 .floatLeft {
@@ -40,6 +40,7 @@ header {
     text-align: center;
     padding-top: 40px;
     font-weight: bold;
+    margin-top: 80px;
 }
 
 .personalData {
@@ -55,5 +56,5 @@ a {
 }
 
 .schedule {
-    margin: 60px;
+    padding: 60px;
 }
