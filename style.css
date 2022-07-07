@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding-top: 50px;
 }
 
 .maintitle {
@@ -40,7 +40,7 @@ header {
     text-align: center;
     padding-top: 40px;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .personalData {
