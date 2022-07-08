@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.maintitle {
+    text-align: center;
+    padding: 30px 0;
+    color: #e53170;
+}
+
+.article {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    float: left;
+    width: 150px;
+}
+
+.personalData {
+    background-color: black;
+    float: left;
+    color: white;
+    padding: 40px 2px;
+    line-height: 1.7rem;
+}
+
+.schedule {
+    background-color: black;
+    width: calc(100% / 3 - 20px);
+    margin: 30px 10px;
+    float: left;
+    box-shadow: 1px 0px 6px 2px #757373;
+
+}
